@@ -12,7 +12,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 public class LoginCheckIntercepter extends HandlerInterceptorAdapter {
 	
 	private static final Logger logger = Logger.getLogger(LoginCheckIntercepter.class);
-
+	//test
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 		
