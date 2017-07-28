@@ -22,7 +22,7 @@ import egovframework.rte.ptl.mvc.tags.ui.pagination.PaginationInfo;
 
 @Controller
 public class bookMyPageController {
-	
+	//sample
 	@Resource(name = "bookMyPageService")
 	private bookMyPageService bookMyPageService;
 	
